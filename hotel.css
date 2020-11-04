@@ -6,6 +6,7 @@
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
 }
+/* <!-- SECTION ONE NAV BAR --> */
 .section_one{
     width: 100%;
     height: 60px;
@@ -30,6 +31,7 @@
     text-align: center;
     color: white;
 }
+/* <!-- SECTION TWO FIND AND BOOK HOTELS IN NIGERIA --> */
 .section_two{
     width: 100%;
     height: 300px;
@@ -51,18 +53,18 @@
     font-size: 16px;
 }
 .container{
-    margin: 0 200px 0 200px;
+    margin: -40px 200px 0 200px;
 }
+/* <!-- SECTION THREE SEARCH FOR A CITY IN A PARTICULAR HOTEL --> */
 .section_three{
-    width: 70%;
+    width: 100%;
     background-color: white;
-    position: relative;
-    top: -50px;
-    left: 200px;
+    margin: 0 auto 0 auto;
+    z-index: 50;
     padding: 40px;
     box-shadow: 0 0 20px rgb(94, 90, 90);
-    /* position: sticky; */
-    /* top: -5px; */
+    position: sticky;
+    top: -20px;
 }
 .input{
     padding: 10px;
@@ -86,7 +88,7 @@
 .button a{
     color: white;
 }
-/* SUGGESTED DESTINATIONS */
+/* <!-- SECTION FOUR SUGGESTED DESTINATION--> */
 .destination{
     text-align: center;
     color: rgb(68, 65, 65);
@@ -99,7 +101,6 @@
     grid-template-columns: repeat(6, 1fr);
 }
 .city{
-    height: 60px;
     background-color: white;
     text-align: center;
     padding: 15px;
@@ -111,7 +112,7 @@
 .city h3{
     color: blue;
 }
-/* TOP DEALS */
+/* <!-- SECTION FIVE TODAYS TOP DEALS --> */
 .top_deals{
     text-align: center;
     margin-top: 50px;
@@ -124,18 +125,15 @@
     grid-template-columns: repeat(3, 1fr);
 }
 .boxes{
-    height: 300px;
     background-color: white;
     text-align: left;
-    padding: 15px;
-    border: 1px solid gray;
-    position: relative;
-    margin: 10px;
+    border: 1px solid rgb(182, 175, 175);
 }
 .boxes img{
-    width: 200px;
+    width: 100%;
     height: 200px;
 }
+/* <!-- SECTION SIX POPULAR CITIES HOTELS --> */
 .popular_cities_hotels{
     text-align: center;
     margin-top: 50px;
@@ -144,29 +142,145 @@
 }
 .section_six{
     display: grid;
-    grid-gap: 20px;
+    grid-gap: 30px;
     grid-template-columns: repeat(3, 1fr);
 }
-.popular_cities{
-    height: 60px;
-    background-color: white;
-    text-align: left;
-    padding: 15px;
-    border: 1px solid gray;
-    padding: 20px;
+.popular_cities1{
     line-height: 30px;
+    margin-top: 50px; 
+    background-image: url(./assets/lagos.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    text-align: center;
+    color: rgb(119, 80, 80);
 }
+.popular_cities2{
+    line-height: 30px;
+    margin-top: 50px; 
+    background-image: url(./assets/abuja.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+.popular_cities3{
+    line-height: 30px;
+    margin-top: 50px; 
+    background-image: url(./assets/calabar.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+.popular_cities4{
+    line-height: 30px;
+    margin-top: 50px; 
+    background-image: url(./assets/porthacourt.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+.popular_cities5{
+    line-height: 30px;
+    margin-top: 50px; 
+    background-image: url(./assets/owere.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+.popular_cities6{
+    line-height: 30px;
+    margin-top: 50px; 
+    background-image: url(./assets/uyo.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+/* <!-- SECTION SEVEN SELECT THE CITIES TO BOOK HOTELS IN --> */
 .list_of_cities{
     text-align: center;
     margin-top: 50px;
     color: rgb(68, 65, 65);
     line-height: 30px;
+    margin-bottom: 50px;
 }
 .section_seven{
     display: grid;
     grid-gap: 20px;
     grid-template-columns: repeat(4, 1fr);
 }
-.cities{
-
+/* <!-- SECTION EIGHT SPECIAL HOTELS DEALS AND OFFER --> */
+.special_offer{
+    text-align: center;
+    color: rgb(68, 65, 65);
+    line-height: 30px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.placeholder{
+    position: relative;
+    left: 200px;
+}
+.input_offer{
+    padding: 15px;
+    width: 40%;
+    border-radius: 6px;
+}
+.button_offer{
+    padding: 15px;
+    background-color: blue;
+    color: white;
+    width: 15%;
+    border-radius: 6px;
+}
+/* <!-- SECTION NINE WE'VE BEEN FEATURED IN--> */
+.featured{
+    text-align: center;
+    color: rgb(68, 65, 65);
+    line-height: 30px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.logos{
+    display: flex;
+    flex-direction: row;
+}
+.logos img{
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    margin: 10px auto;
+}
+/* <!-- SECTION TEN GET MORE BOOKINGS FOR YOUR HOTEL --> */
+.bookings{
+    text-align: center;
+    color: rgb(68, 65, 65);
+    line-height: 30px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.booking_button{
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    width: 20%;
+    border-radius: 6px;
+    margin-bottom: 100px;
+}
+/* <!-- SECTION ELEVEN GET THE APP --> */
+.get_app_main{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+.get_app img{
+    width: 200px;
+    height: 100px;
+}
+/* <!-- SECTION TWELVE ENTER YOUR EMAIL ADDRESS --> */
+.section_twelve{
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
 }
