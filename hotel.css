@@ -10,6 +10,7 @@
 :root {
     --skyblue: #00aeff; 
     --blue: #0f073b;
+    --white: white
 }
 /* <!-- SECTION ONE NAV BAR --> */
 .navbar ul{
@@ -138,6 +139,10 @@
     border: 2px solid var(--skyblue);
     padding: 20px;
     line-height: 30px;
+}
+.city:hover{
+    background-color: var(--blue);
+    color: var(--white);
 }
 .city h3{
     color:var(--skyblue  );
