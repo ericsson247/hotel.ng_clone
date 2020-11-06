@@ -29,7 +29,7 @@
     width: 25px;
     margin-left: 500px;
 }
-.contact{
+.contact {
     border: 1px solid black;
     border-radius: 55px;
     padding: 5px;
@@ -39,8 +39,8 @@
 .contact img{
     width: 25px;
 }
-.p{
-    color: var(--skyblue);
+.p a{
+    color: var(--white);
     font-size: 10px;
 }
 .flag img{
@@ -90,7 +90,7 @@
     padding: 40px;
     box-shadow: 0 0 20px rgb(94, 90, 90);
     position: sticky;
-    top: -20px;
+    top: 0px;
 }
 .input{
     padding: 10px;
@@ -351,3 +351,6 @@
     grid-template-columns: repeat(5, 1fr);
     margin: 50px 20px;
 }
+
+
+
